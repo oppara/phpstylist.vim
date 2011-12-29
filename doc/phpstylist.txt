@@ -1,0 +1,72 @@
+phpstylist.txt* phpStylist.php wrapper
+
+Version: 0.1
+Author: oppara <oppara _at_ oppara.tv>
+License: MIT License
+
+==============================================================================
+CONTENTS                    *phpstylist-contents*
+
+INTRODUCTION            |phpstylist-introduction|
+INTERFACE           |phpstylist-interface|
+  COMMANDS            |phpstylist-commands|
+  FUNCTIONS           |phpstylist-functions|
+CUSTOMIZING         |phpstylist-customizing|
+CHANGELOG           |phpstylist-changelog|
+
+
+==============================================================================
+INTRODUCTION                    *phpstylist-introduction*
+
+*phpstylist* is is wrapper for phpStylist.
+
+Requirements:
+- Vim 7.3 or later
+- PhpStylist http://sourceforge.net/projects/phpstylist/
+
+Latest version:
+https://github.com/oppara/phpstylist.vim
+
+
+==============================================================================
+INTERFACE                   *phpstylist-interface*
+
+------------------------------------------------------------------------------
+COMMANDS                    *phpstylist-commands*
+
+:PhpStylist                 *:PhpStylist*
+    tidy php script.
+
+
+==============================================================================
+CUSTOMIZING                 *phpstylist-customizing*
+
+g:phpstylist_cmd_path               *g:phpstylist_cmd_path*
+    Specifies the path to phpStylist.php
+
+
+g:phpstylist_cmd_opts                *g:phpstylist_cmd_opts*
+    Specifies phpStylist.php options in list.
+    /path/to/php /path/to/phpStylist.php --help
+
+
+g:phpstylist_tmp_path                *g:phpstylist_tmp_path*
+    Specifies the path to temporary file.
+    That file used in visual mode.
+    The default value is '/tmp/phpstylist'.
+
+
+g:phpstylist_php_interpreter                *g:phpstylist_php_interpreter*
+    Specifies the path to php interpreter
+    The default value is `which php`
+
+
+==============================================================================
+CHANGELOG                   *phpstylist-changelog*
+
+0.1 2011-12-29
+    - Initial version.
+
+
+==============================================================================
+
