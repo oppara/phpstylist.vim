@@ -13,25 +13,25 @@ let g:loaded_phpstylist = 1
 if !exists('g:phpstylist_cmd_opts')
   let g:phpstylist_cmd_opts = [
         \ '--indent_size 4 ',
-        \ '--line_before_comment_multi ',
         \ '--keep_redundant_lines ',
         \ '--space_after_comma ',
         \ '--space_around_assignment ',
-        \ '--align_var_assignment ',
         \ '--space_around_comparison ',
         \ '--space_around_arithmetic ',
         \ '--space_around_logical ',
         \ '--space_around_colon_question ',
         \ '--line_before_function ',
         \ '--space_after_if ',
-        \ '--add_missing_braces ',
         \ '--space_inside_for ',
+        \ '--add_missing_braces ',
         \ '--indent_case ',
-        \ '--line_after_break ',
         \ '--space_around_double_arrow ',
         \ '--space_around_concat ',
         \ '--vertical_array ',
-        \ '--align_array_assignment'
+        \ '--align_array_assignment',
+        \ '--line_before_comment_multi ',
+        \ '--align_var_assignment ',
+        \ '--line_after_break '
         \]
 endif
 
