@@ -45,10 +45,20 @@ g:phpstylist_cmd_path               *g:phpstylist_cmd_path*
     Specifies the path to phpStylist.php
 
 
-g:phpstylist_cmd_opts                *g:phpstylist_cmd_opts*
-    Specifies phpStylist.php options in list.
-    /path/to/php /path/to/phpStylist.php --help
+g:phpstylist_options                *g:phpstylist_options*
+    Specifies phpStylist.php options in dict.
+    required 'default'
+            e.g.: >
+            let g:phpstylist_options = {
+              \'default' : [
+                \ '--indent_size 4 ',
+              \],
+              \'other_style' : [
+                \ '--indent_size 8 ',
+              \]
+            \}
 
+    /path/to/php /path/to/phpStylist.php --help
 
 g:phpstylist_tmp_path                *g:phpstylist_tmp_path*
     Specifies the path to temporary file.
