@@ -41,7 +41,7 @@ if !exists('g:phpstylist_php_interpreter')
 endif
 
 
-function! phpstylist#php_stylist(has_range, line1, line2)
+function! phpstylist#php_stylist(has_range, line1, line2, ...)
   if !exists('g:phpstylist_cmd_path')
     echoerr "you must be set g:phpstylist_cmd_path."
     return

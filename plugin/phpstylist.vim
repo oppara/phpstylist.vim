@@ -12,7 +12,7 @@ let g:loaded_phpstylist = 1
 let s:save_cpo = &cpo
 set cpo&vim
 
-command! -range=0 PhpStylist call phpstylist#php_stylist(<count>, <line1>, <line2>)
+command! -nargs=? -range=0 PhpStylist call phpstylist#php_stylist(<count>, <line1>, <line2>, <args>)
 
 let &cpo = s:save_cpo
 unlet s:save_cpo
