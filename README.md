@@ -9,7 +9,7 @@ wrapper for phpStylist
 
 Requires
 --------
-* [phpStylist](http://sourceforge.net/projects/phpstylist/)
+* [phpStylist](https://github.com/oppara/phpstylist)
 
 
 LICENSE
