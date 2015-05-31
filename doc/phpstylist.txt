@@ -1,6 +1,6 @@
 phpstylist.txt* phpStylist.php wrapper
 
-Version: 0.1
+Version: 0.2
 Author: oppara <oppara _at_ oppara.tv>
 License: MIT License
 
@@ -73,6 +73,9 @@ g:phpstylist_php_interpreter                *g:phpstylist_php_interpreter*
 
 ==============================================================================
 CHANGELOG                   *phpstylist-changelog*
+
+0.2 2012-11-04
+    - Use autoload
 
 0.1 2011-12-29
     - Initial version.

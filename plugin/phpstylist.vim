@@ -1,5 +1,5 @@
 " File: phpstylist.vim
-" Version: 0.1
+" Version: 0.2
 " Author: oppara <oppara _at_ oppara.tv>
 " WebPage: https://github.com/oppara/phpstylist.vim
 " License: MIT License
